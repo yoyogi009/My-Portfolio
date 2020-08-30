@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/yoyogi009.github.io/My-Portfolio/static/css/main.14007d55.chunk.css",
+    "main.js": "/yoyogi009.github.io/My-Portfolio/static/js/main.938a8ede.chunk.js",
+    "main.js.map": "/yoyogi009.github.io/My-Portfolio/static/js/main.938a8ede.chunk.js.map",
+    "runtime-main.js": "/yoyogi009.github.io/My-Portfolio/static/js/runtime-main.080c098c.js",
+    "runtime-main.js.map": "/yoyogi009.github.io/My-Portfolio/static/js/runtime-main.080c098c.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/yoyogi009.github.io/My-Portfolio/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.187ed17f.chunk.js": "/yoyogi009.github.io/My-Portfolio/static/js/2.187ed17f.chunk.js",
+    "static/js/2.187ed17f.chunk.js.map": "/yoyogi009.github.io/My-Portfolio/static/js/2.187ed17f.chunk.js.map",
+    "index.html": "/yoyogi009.github.io/My-Portfolio/index.html",
+    "precache-manifest.05cebd8839e8dcb842ff1d8cf20f02cf.js": "/yoyogi009.github.io/My-Portfolio/precache-manifest.05cebd8839e8dcb842ff1d8cf20f02cf.js",
+    "service-worker.js": "/yoyogi009.github.io/My-Portfolio/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/yoyogi009.github.io/My-Portfolio/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.14007d55.chunk.css.map": "/yoyogi009.github.io/My-Portfolio/static/css/main.14007d55.chunk.css.map",
+    "static/js/2.187ed17f.chunk.js.LICENSE.txt": "/yoyogi009.github.io/My-Portfolio/static/js/2.187ed17f.chunk.js.LICENSE.txt",
+    "static/media/profile-img.jpg": "/yoyogi009.github.io/My-Portfolio/static/media/profile-img.2bf4f0d4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.080c098c.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.187ed17f.chunk.js",
+    "static/css/main.14007d55.chunk.css",
+    "static/js/main.938a8ede.chunk.js"
+  ]
+}
