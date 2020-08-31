@@ -3,15 +3,7 @@ import { Container, Row, Button } from "react-bootstrap";
 
 class Skills extends Component {
   render() {
-    return (
-      <Container className="container--fluid">
-       
-        <br />
-        
-
-        <hr />
-      </Container>
-    );
+    return <Container className="container--fluid"></Container>;
   }
 }
 

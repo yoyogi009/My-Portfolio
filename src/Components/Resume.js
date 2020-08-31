@@ -1,16 +1,10 @@
 import React, { Component } from "react";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
-import {
-  Container,
-  Row,
-  Col,
-  Figure,
-  Button,
-  Jumbotron,
-} from "react-bootstrap";
+import { Container, Row, Col, Figure, Button } from "react-bootstrap";
 import profile from "../assets/profile-img.jpg";
 
+//-------resume-page---------//
 class Resume extends Component {
   render() {
     return (
@@ -20,6 +14,7 @@ class Resume extends Component {
         <br />
         <Container className="jumbotron" style={{ backgroundColor: "black" }}>
           <Row className="justify-content-md-center">
+            {/*---- profile-pic----- */}
             <Col md="auto">
               <Figure.Image
                 width={300}
@@ -29,6 +24,8 @@ class Resume extends Component {
                 style={{ opacity: "0.9" }}
               />
             </Col>
+
+            {/*-----resume-content------ */}
             <Col sm={8}>
               <h1>
                 <span style={{ color: "#5d77ce" }}>Yogesh Maurya</span>
@@ -39,6 +36,8 @@ class Resume extends Component {
               >
                 <h5 style={{ color: "orange" }}>MY RESUME :</h5>
                 <p> Click👇 to see my resume. </p>
+
+                {/*-----resume-button------ */}
                 <a
                   target="_blank"
                   href="https://drive.google.com/file/d/1Pib5emWfTsnIEyC6053draQpGn0saNIE/view?usp=sharing"
@@ -48,6 +47,7 @@ class Resume extends Component {
                     Resume
                   </Button>
                 </a>
+                {/*-----resume-button-end------ */}
               </div>
             </Col>
             <Col sm={4}></Col>

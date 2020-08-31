@@ -1,15 +1,9 @@
 import React, { Component } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Figure,
-  Button,
-  Jumbotron,
-} from "react-bootstrap";
+import { Container, Row, Col, Figure, Button } from "react-bootstrap";
 import profile from "../assets/profile-img.jpg";
 import Skills from "./Skills";
 
+//------intro-class-------//
 class Intro extends Component {
   render() {
     return (
@@ -25,6 +19,8 @@ class Intro extends Component {
                 style={{ opacity: "0.9" }}
               />
             </Col>
+
+            {/*------- intro-section----- */}
             <Col>
               <br />
               <br />
@@ -42,7 +38,11 @@ class Intro extends Component {
               <h4 style={{ color: "orange" }}>Opensource Contributor</h4>
               <br />
               <h4 style={{ color: "Red" }}>MY SKILLS :</h4>
+
+              {/*------ skills button------- */}
+
               <div className="text-center col-md-8 col-12">
+                {/* reactjs */}
                 <Button
                   style={{ margin: "10px" }}
                   className="button-class"
@@ -50,22 +50,29 @@ class Intro extends Component {
                 >
                   React Js
                 </Button>{" "}
+                {/*-----js------ */}
                 <Button style={{ margin: "10px" }} variant="outline-secondary">
                   JavaScript
                 </Button>{" "}
+                {/*-----python------ */}
                 <Button style={{ margin: "10px" }} variant="outline-success">
                   Python
                 </Button>{" "}
+                {/*----- ML---- */}
                 <Button style={{ margin: "10px" }} variant="outline-warning">
                   Machine Learning
                 </Button>{" "}
+                {/*---- css3---- */}
                 <Button style={{ margin: "10px" }} variant="outline-light">
                   CSS3
                 </Button>{" "}
+                {/*---html5---- */}
                 <Button style={{ margin: "10px" }} variant="outline-dark">
                   HTML5
                 </Button>
               </div>
+
+              {/* skills button end */}
             </Col>
           </Row>
           <hr />

@@ -4,6 +4,8 @@ import Footer from "./Footer";
 import { Container, Row, Col, Figure } from "react-bootstrap";
 import profile from "../assets/profile-img.jpg";
 
+//---About Class---//
+
 class About extends Component {
   render() {
     return (
@@ -13,6 +15,8 @@ class About extends Component {
         <br />
         <Container className="jumbotron" style={{ backgroundColor: "black" }}>
           <Row className="justify-content-md-center">
+            {/* Profile-Pic  */}
+
             <Col md="auto">
               <Figure.Image
                 width={300}
@@ -22,6 +26,9 @@ class About extends Component {
                 style={{ opacity: "0.9" }}
               />
             </Col>
+            {/* Profile-Pic End */}
+
+            {/* About-Content */}
             <Col sm={8}>
               <h1>
                 <span style={{ color: "#5d77ce" }}>Yogesh Maurya</span>
@@ -43,8 +50,9 @@ class About extends Component {
                 special.
               </p>
               <br />
-              {/* <p>Thank You!</p> */}
             </Col>
+
+            {/* About-Content end */}
             <Col sm={4}></Col>
           </Row>
           <hr />

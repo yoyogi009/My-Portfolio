@@ -9,6 +9,7 @@ import { Switch, Route } from "react-router-dom";
 import Contact from "./Components/Contact";
 import Resume from "./Components/Resume";
 
+//---------Routing---------//
 function App() {
   return (
     <div className="">
