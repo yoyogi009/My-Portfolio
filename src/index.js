@@ -6,12 +6,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <Router>
     <App />
     </Router>
     
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 
